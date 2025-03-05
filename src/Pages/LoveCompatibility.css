@@ -1,0 +1,85 @@
+.hero{
+  height: 100%;
+}
+.love-container {
+    text-align: center;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: auto;
+    color: white;
+    font-family: "Arial", sans-serif;
+    margin-top: 0%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #ff4b7d;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e63e6c;
+  }
+  
+  .love-result {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    animation: pop 0.5s ease-in-out;
+  }
+  
+  /* Add a small pop effect when showing result */
+  @keyframes pop {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.return{
+  text-align: center;
+  padding: 50px; 
+  padding-top: 100px;
+
+}
+.return button{
+  width: 200px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.return button:hover{
+  background-color: aqua;
+  transform: scale(1.09,1.09);
+}
+  

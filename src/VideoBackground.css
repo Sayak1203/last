@@ -1,0 +1,101 @@
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #bgVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+
+  .video-container h1{
+    margin: 20px;
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    /* background: linear-gradient(90deg, #21e8de, #f60909); */
+    color: aquamarine;
+    cursor: pointer;
+    
+  }  
+  .video-container h1:hover{
+   background-color: black; 
+   border-radius: 10px;   
+  }  
+  .scroll{
+    text-align: center;
+    background-color: rgba(255, 13, 13, 0.476);
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 60px;
+    margin: auto;
+    margin-top: 40px;
+    color: beige;
+    margin-bottom: 20px;
+  }
+ .innerContent{
+    width: 1220px;
+    margin: auto;  
+    margin-top: 200px;  
+    /* background-color: rgba(0, 0, 0, 0.192); */
+ } 
+ .innerContent span{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 70px;
+  color: rgb(217, 213, 208);
+  transition-colors: #00c2ff;
+  duration: 300;
+}
+ .innerContent span:hover{
+  font-size: 40px;
+  cursor: pointer;
+  /* color: black; */
+  /* background-color: #0ccce1; */
+  /* box-shadow: 0px 0px 10px 5px #ff0090; */
+  border-radius: 10px;
+  margin: 10px;
+  margin-inline: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-decoration: underline;
+  color: #09bede;
+
+}
+
+.Changepage{
+  text-align: center;
+}
+.Changepage button{
+  margin-top: 25px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: rgba(6, 20, 1, 0.47);
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+.Changepage button:hover{
+  transform: scale(1.09,1.09);
+  background-color: rgba(6, 20, 1, 0.773);
+  box-shadow: 0 0 10px 3px #0cf2bc;
+}
+
+  
+  
